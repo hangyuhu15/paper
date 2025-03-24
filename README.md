@@ -1,4 +1,4 @@
-# [Proceedings of Machine Learning Research] (https://proceedings.mlr.press/v250/)
+# [Proceedings of Machine Learning Research](https://proceedings.mlr.press/v250/)
 
 ## Medical Imaging with Deep Learning, 3-5 July 2024, Paris, France
 
