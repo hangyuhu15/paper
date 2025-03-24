@@ -1,5 +1,5 @@
 #Proceedings of Machine Learning Research
----
+============================
 ##Medical Imaging with Deep Learning, 3-5 July 2024, Paris, France
 ---
 ### 1. **Afzal et al. (2024)**  
