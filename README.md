@@ -1,7 +1,7 @@
 # Proceedings of Machine Learning Research
-============================
+
 ## Medical Imaging with Deep Learning, 3-5 July 2024, Paris, France
----
+
 ### 1. **Afzal et al. (2024)**  
 **任务**：研究多视图胸部X光图像分类任务中的预训练策略，特别是在低数据量场景下的性能表现。  
 **数据集**：PadChest 数据集，包含160,868张胸部X光图像，涵盖多种病理标签。  
