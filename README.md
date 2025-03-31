@@ -13,75 +13,75 @@
 
 ---
 
-## 2. Ahmad et al. (2024)
+## 2. Interpretable Uncertainty-Aware Deep Regression with Cohort Saliency Analysis for Three-Slice CT Imaging Studies
 - **任务**：开发一种用于三切面CT图像的不确定性感知深度回归方法，用于量化肝脏、内脏脂肪组织和大腿肌肉的横截面积。
 - **数据集**：SCAPIS 和 IGT 研究中的2,724名受试者的CT图像数据。
 - **方法**：提出了一种基于ResNet-50的深度回归网络，通过预测均值和方差来量化目标区域的面积，并结合Grad-CAM生成队列显著性图，用于解释模型预测。通过图像配准技术将显著性图对齐到公共模板空间，实现群体级别的可视化分析。
-- **论文链接**：[Ahmad et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/ahmad24a/ahmad24a.pdf)
+- **论文链接**：[Interpretable Uncertainty-Aware Deep Regression with Cohort Saliency Analysis for Three-Slice CT Imaging Studies](https://raw.githubusercontent.com/mlresearch/v250/main/assets/ahmad24a/ahmad24a.pdf)
 
 ---
 
-## 3. Alekseenko et al. (2024)
+## 3. Distance-Aware Non-IID Federated Learning for Generalization and Personalization in Medical Imaging Segmentation
 - **任务**：提出一种基于距离感知的非独立同分布（non-IID）联邦学习方法，用于医学图像分割任务，优化模型的泛化和个性化能力。
 - **数据集**：FeTS、Prostate 和 Fed-KITS2019 数据集，涵盖多种放射学成像场景。
 - **方法**：结合医学图像嵌入空间的距离测量和元数据的统计距离，通过降低最远客户端的贡献来优化模型泛化能力，并通过基于距离的聚类实现客户端的个性化。验证了该方法在多个公共数据集上的有效性。
-- **论文链接**：[Alekseenko et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/alekseenko24a/alekseenko24a.pdf)
+- **论文链接**：[Distance-Aware Non-IID Federated Learning for Generalization and Personalization in Medical Imaging Segmentation](https://raw.githubusercontent.com/mlresearch/v250/main/assets/alekseenko24a/alekseenko24a.pdf)
 
 ---
 
-## 4. Andresen et al. (2024)
+## 4. FluidRegNet: Longitudinal registration of retinal OCT images with new pathological fluids
 - **任务**：开发一种用于视网膜光学相干断层扫描（OCT）图像的纵向配准方法，专门处理新病理液体的出现和消失。
 - **数据集**：包含33名CSCR患者的61只眼睛的369张OCT图像。
 - **方法**：提出FluidRegNet，通过预测液体起源的位置（以稀疏强度偏移形式）并将其配准到后续图像中的受影响区域，生成更准确的变形场。结合基于区域的正则化策略，该方法能够处理新出现液体导致的组织变形，并用于无监督的液体分割。
-- **论文链接**：[Andresen et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/andresen24a/andresen24a.pdf)
+- **论文链接**：[FluidRegNet: Longitudinal registration of retinal OCT images with new pathological fluids](https://raw.githubusercontent.com/mlresearch/v250/main/assets/andresen24a/andresen24a.pdf)
 
 ---
 
-## 5. Baumann et al. (2024)
+## 5. HoVer-NeXt: A Fast Nuclei Segmentation and Classification Pipeline for Next Generation Histopathology
 - **任务**：开发一种快速、准确的基于H&E染色的细胞核分割和分类模型，用于大规模结直肠癌队列研究。
 - **数据集**：扩展的Lizard CRC细胞核数据集，包含6种细胞类型，并新增了有丝分裂类。
 - **方法**：提出HoVer-NeXt模型，基于ConvNeXt-v2编码器和U-Net架构，结合类平衡采样和焦点损失优化性能。通过高效的WSI推理流程，该方法在多个数据集上实现了快速推理和高准确率，同时提供了额外的验证数据集。
-- **论文链接**：[Baumann et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/baumann24a/baumann24a.pdf)
+- **论文链接**：[HoVer-NeXt: A Fast Nuclei Segmentation and Classification Pipeline for Next Generation Histopathology](https://raw.githubusercontent.com/mlresearch/v250/main/assets/baumann24a/baumann24a.pdf)
 
 ---
 
-## 6. Behrendt et al. (2024)
+## 6. Combining Reconstruction-based Unsupervised Anomaly Detection with Supervised Segmentation for Brain MRIs
 - **任务**：结合重建型无监督异常检测（UAD）和自监督分割方法，提高脑部MRI异常检测的分割性能和泛化能力。
 - **数据集**：IXI数据集用于训练扩散模型，BRATS和ATLAS数据集用于弱监督学习和评估。
 - **方法**：提出SADM框架，结合扩散模型生成伪健康重建和基于残差的U-Net分割网络。通过将监督预测与无监督异常图融合，该方法在已知和未知病理类型上均表现出色。
-- **论文链接**：[Behrendt et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/behrendt24a/behrendt24a.pdf)
+- **论文链接**：[Combining Reconstruction-based Unsupervised Anomaly Detection with Supervised Segmentation for Brain MRIs](https://raw.githubusercontent.com/mlresearch/v250/main/assets/behrendt24a/behrendt24a.pdf)
 
 ---
 
-## 7. Bhattacharya et al. (2024)
+## 7. GazeDiff: A radiologist visual attention guided diffusion model for zero-shot disease classification
 - **任务**：利用放射科医生的眼动模式作为控制信号，改进扩散模型在胸部X光图像生成和零样本分类中的性能。
 - **数据集**：公开的胸部X光眼动数据集（EGD-CXR），包含1083张图像及其转录文本。
 - **方法**：提出GazeDiff模型，将眼动模式作为额外控制信号，结合放射科医生的转录文本，生成具有疾病特征的医学图像，并用于零样本分类任务。通过密度估计，该方法在肺炎和结核病分类上优于基线模型。
-- **论文链接**：[Bhattacharya et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/bhattacharya24a/bhattacharya24a.pdf)
+- **论文链接**：[GazeDiff: A radiologist visual attention guided diffusion model for zero-shot disease classification](https://raw.githubusercontent.com/mlresearch/v250/main/assets/bhattacharya24a/bhattacharya24a.pdf)
 
 ---
 
-## 8. Billot et al. (2024)
+## 8. Network conditioning for synergistic learning on partial annotations
 - **任务**：提出一种用于部分标注区域分割的条件网络框架，优化多器官分割任务中的数据利用效率。
 - **数据集**：包含289个胎儿MRI扫描的内部数据集，部分标注了5个区域。
 - **方法**：提出CoNeMOS框架，通过特征线性调制（FiLM）层实现条件网络，动态调整网络以适应不同标签。该方法在胎儿MRI数据上表现出色，优于现有的部分监督学习方法。
-- **论文链接**：[Billot et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/billot24a/billot24a.pdf)
+- **论文链接**：[Network conditioning for synergistic learning on partial annotations](https://raw.githubusercontent.com/mlresearch/v250/main/assets/billot24a/billot24a.pdf)
 
 ---
 
-## 9. Boland et al. (2024)
+## 9. There Are No Shortcuts to Anywhere Worth Going: Identifying Shortcuts in Deep Learning Models for Medical Image Analysis
 - **任务**：研究深度学习模型中的“捷径学习”现象，提出一种检测和定位模型中捷径的方法。
 - **数据集**：Waterbirds、CheXpert 和 ISIC 2017 数据集，涵盖自然图像和医学图像任务。
 - **方法**：结合预测深度（PD）和KL散度，定位模型中捷径特征出现的具体层，并分析捷径复杂性、深度和对模型性能的影响。实验表明，更复杂的捷径通常出现在模型的深层，而简单的捷径对性能的负面影响更大。
-- **论文链接**：[Boland et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/boland24a/boland24a.pdf)
+- **论文链接**：[There Are No Shortcuts to Anywhere Worth Going: Identifying Shortcuts in Deep Learning Models for Medical Image Analysis](https://raw.githubusercontent.com/mlresearch/v250/main/assets/boland24a/boland24a.pdf)
 
 ---
 
-## 10. Buess et al. (2024)
+## 10. Video-CT MAE: Self-supervised Video-CT Domain Adaptation for Vertebral Fracture Diagnosis
 - **任务**：提出一种结合视频预训练和自监督领域适应的方法，用于3D CT图像中的椎体骨折检测。
 - **数据集**：包含27,776个未标注椎体的预训练数据集，以及457名患者的6,245个标注椎体的下游任务数据集。
 - **方法**：提出Video-CT MAE方法，通过视频MAE预训练初始化，然后在未标注的椎体数据上进行自监督预训练，最后在标注数据上进行微调。该方法在椎体骨折检测任务中优于现有的CNN方法，并展示了Transformer在3D医学图像中的潜力。
-- **论文链接**：[Buess et al. (2024)](https://raw.githubusercontent.com/mlresearch/v250/main/assets/buess24a/buess24a.pdf)
+- **论文链接**：[Video-CT MAE: Self-supervised Video-CT Domain Adaptation for Vertebral Fracture Diagnosis](https://raw.githubusercontent.com/mlresearch/v250/main/assets/buess24a/buess24a.pdf)
 
 ---
 
