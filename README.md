@@ -77,7 +77,7 @@
 
 ---
 
-## 10. Video-CT MAE: Self-supervised Video-CT Domain Adaptation for Vertebral Fracture Diagnosis
+## <mark>10. Video-CT MAE: Self-supervised Video-CT Domain Adaptation for Vertebral Fracture Diagnosis</mark>
 - **任务**：提出一种结合视频预训练和自监督领域适应的方法，用于3D CT图像中的椎体骨折检测。
 - **数据集**：包含27,776个未标注椎体的预训练数据集，以及457名患者的6,245个标注椎体的下游任务数据集。
 - **方法**：提出Video-CT MAE方法，通过视频MAE预训练初始化，然后在未标注的椎体数据上进行自监督预训练，最后在标注数据上进行微调。该方法在椎体骨折检测任务中优于现有的CNN方法，并展示了Transformer在3D医学图像中的潜力。
@@ -85,7 +85,7 @@
 
 ---
 
-## 11. Evaluating ChatGPT’s Performance in Generating and Assessing Dutch Radiology Report Impressions
+## <mark>11. Evaluating ChatGPT’s Performance in Generating and Assessing Dutch Radiology Report Impressions</mark>
 - **任务**：评估ChatGPT在生成和评估荷兰语放射学报告“印象”部分的能力。
 - **数据集**：荷兰奈梅亨大学医学中心（Radboudumc）的胸部CT放射学报告数据集，包含200份报告，分为训练集和测试集。
 - **方法**：使用OpenAI的GPT-3.5-turbo-0613模型对报告的“发现”部分进行微调，生成“印象”部分，并通过两名放射科医生和GPT-4对生成的印象进行评估，比较其与原始印象的质量差异。
@@ -117,7 +117,7 @@
 
 ---
 
-## 15. FedFDD: Federated Learning with Frequency Domain Decomposition for Low-Dose CT Denoising
+## <mark>15. FedFDD: Federated Learning with Frequency Domain Decomposition for Low-Dose CT Denoising</mark>
 - **任务**：在保护隐私的前提下，通过联邦学习（FL）方法对低剂量CT（LDCT）图像进行去噪。
 - **数据集**：包含腹部、胸部和头部的LDCT和全剂量CT（NDCT）图像数据集。
 - **方法**：提出FedFDD（Federated Learning with Frequency Domain Decomposition），通过离散余弦变换（DCT）将图像分解为高频和低频成分，并仅在FL中更新高频成分，同时保留每个客户端的低频成分，以改善LDCT去噪性能。
@@ -133,7 +133,7 @@
 
 ---
 
-## 17. Pretraining Vision-Language Model for Difference Visual Question Answering in Longitudinal Chest X-rays
+## <mark>17. Pretraining Vision-Language Model for Difference Visual Question Answering in Longitudinal Chest X-rays</mark>
 - **任务**：在纵向胸部X光图像中进行差异视觉问答（diff-VQA）任务。
 - **数据集**：MIMIC-CXR数据集（包含377,110张胸部X光图像和227,827份报告）和MIMIC-Diff-VQA数据集（包含700,703对纵向胸部X光图像的问答对）。
 - **方法**：提出PLURAL模型，基于Transformer架构，先在自然图像和文本上进行预训练，然后在纵向胸部X光数据上进行预训练，最后在diff-VQA数据上进行微调，以提高模型在纵向图像差异问答任务中的性能。
@@ -197,7 +197,7 @@
 
 ---
 
-## 25. Auto-Generating Weak Labels for Real & Synthetic Data to Improve Label-Scarce Medical Image Segmentation
+## <mark>25. Auto-Generating Weak Labels for Real & Synthetic Data to Improve Label-Scarce Medical Image Segmentation</mark>
 - **任务**：解决医学图像分割中标注稀缺问题，通过自动生成弱标签增强数据集。
 - **数据集**：BUSI（乳腺超声图像）、ISIC（皮肤病变图像）、CANDID-PTX（胸部X光图像）。
 - **方法**：利用少量金标准标注训练初始模型，生成粗标签并选择输入提示，通过MedSAM生成高质量弱标签，提升分割性能。
@@ -205,7 +205,7 @@
 
 ---
 
-## 26. Parameter-Efficient Fine-Tuning for Medical Image Analysis: The Missed Opportunity
+## <mark>26. Parameter-Efficient Fine-Tuning for Medical Image Analysis: The Missed Opportunity</mark>
 - **任务**：评估参数高效微调（PEFT）在医学图像分析中的有效性，特别是在低数据量场景下。
 - **数据集**：包括HAMD10000、BreastUS、Fitzpatrick17K、SMDG、RSNA肺炎检测等医学图像数据集。
 - **方法**：对17种PEFT算法进行基准测试，比较不同算法在CNN和Transformer架构下的性能，发现LoRA和SSF等方法在低数据量任务中表现优异。
@@ -285,7 +285,7 @@
 
 ---
 
-## 36. REINDIR: Accelerating Implicit Neural Representations for Deformable Image Registration
+## <mark>36. REINDIR: Accelerating Implicit Neural Representations for Deformable Image Registration</mark>
 - **任务**：加速隐式神经表示（INR）在可变形图像配准中的优化过程，同时保持对域偏移的鲁棒性。
 - **数据集**：使用DIR-LAB、NLST和Learn2Reg挑战赛提供的肺部CT和CBCT数据集。
 - **方法**：提出REINDIR方法，通过图像编码器生成嵌入表示，并将其注入到模板INR中，以改善优化的初始化。
@@ -301,7 +301,7 @@
 
 ---
 
-## 38. Prediction Bias in Chest X-ray Classification Models
+## <mark>38. Prediction Bias in Chest X-ray Classification Models</mark>
 - **任务**：研究不同数据集训练的胸部X光分类模型在图像级别上的预测倾向差异。
 - **数据集**：使用CheXpert（CXP）和MIMIC-CXR（MMC）两个胸部X光数据集。
 - **方法**：提出“预测倾向”概念，通过比较不同数据集训练模型的预测差异，并训练比较数据集模型（CDMs）来识别这些倾向。
@@ -309,7 +309,7 @@
 
 ---
 
-## 39. ICL-SAM: Combining In-Context Learning and Segment Anything Model for Medical Image Segmentation
+## <mark>39. ICL-SAM: Combining In-Context Learning and Segment Anything Model for Medical Image Segmentation</mark>
 - **任务**：结合In-Context Learning（ICL）模型和Segment Anything Model（SAM），提高医学图像分割的性能。
 - **数据集**：使用眼底、脑部MRI和肾脏CT图像的多个数据集。
 - **方法**：提出ICL-SAM方法，通过SAM细化ICL模型的分割结果，并利用ICL模型为SAM生成提示，同时引入语义置信度图以进一步提高分割精度。
@@ -341,7 +341,7 @@
 
 ---
 
-## 43. Edge-Guided Single-Source Domain Generalization for Medical Image Segmentation
+## <mark>43. Edge-Guided Single-Source Domain Generalization for Medical Image Segmentation</mark>
 - **任务**：开发一种单源领域泛化方法，用于医学图像分割，以实现“一次训练，随处部署”。
 - **数据集**：BraTS’19（脑肿瘤分割）、前列腺数据集（多中心MRI）和MMWHS（心脏结构分割）。
 - **方法**：提出边缘引导的单源领域泛化（EGSDG）方法，通过引入图像边缘信息作为输入，并结合Bézier曲线数据增强，提高模型在未知目标域上的泛化能力。
@@ -349,7 +349,7 @@
 
 ---
 
-## 44. Self-supervised Pretraining in the Wild for Medical Image Transformers
+## <mark>44. Self-supervised Pretraining in the Wild for Medical Image Transformers</mark>
 - **任务**：比较自监督预训练（SSL）在自然图像数据集（wild-pretraining）和任务相关数据集（self-pretraining）对医学图像分割的影响。
 - **数据集**：包含10,412个3D CT扫描的公共数据集，以及用于微调的NSCLC患者数据集。
 - **方法**：使用Swin Transformer和Vision Transformer（ViT）进行实验，通过对比学习、掩码图像预测等任务进行预训练，并评估模型在不同成像条件下的鲁棒性和微调效率。
@@ -421,7 +421,7 @@
 
 ---
 
-## 53. Triplet Training for Dementia Diagnosis with Limited Data
+## <mark>53. Triplet Training for Dementia Diagnosis with Limited Data</mark>
 - **任务**：在有限数据的情况下，提高痴呆症差异诊断的性能。
 - **数据集**：UK Biobank、ADNI和NIFD（用于阿尔茨海默病和额颞叶痴呆的数据集）。
 - **方法**：提出了一种“Triplet Training”方法，结合自监督预训练（Barlow Twins）、自蒸馏和目标数据集的微调，通过逐步优化模型，显著提高了在有限数据情况下的诊断性能。
@@ -437,7 +437,7 @@
 
 ---
 
-## 55. SepVAE: Contrastive VAE to Separate Pathological Patterns from Healthy Ones
+## <mark>55. SepVAE: Contrastive VAE to Separate Pathological Patterns from Healthy Ones</mark>
 - **任务**：从健康人群中分离病理模式。
 - **数据集**：包括健康对照组和患有精神分裂症或自闭症的患者的结构化MRI数据。
 - **方法**：提出了一种对比分析变分自编码器（SepVAE），通过引入解耦项和分类项，优化了潜在空间的分离，使得病理特征和常见特征能够被更好地分离。实验表明，该方法在多个医学应用中优于现有方法。
@@ -485,7 +485,7 @@
 
 ---
 
-## 61. RADR: Robust Domain Adversarial Framework for Diabetic Retinopathy Classification
+## <mark>61. RADR: Robust Domain Adversarial Framework for Diabetic Retinopathy Classification</mark>
 - **任务**：开发一种鲁棒的域对抗框架RADR，用于糖尿病视网膜病变（DR）严重程度的自动化分类。
 - **数据集**：EyePACS数据集（成人眼底图像）和多个外部数据集（Messidor、APTOS等）。
 - **方法**：结合域对抗训练和数据增强策略，通过多相机训练和伪标签生成，提高模型在未见数据集上的泛化能力。
@@ -501,7 +501,7 @@
 
 ---
 
-## 63. Noisy Student for OCT Segmentation
+## <mark>63. Noisy Student for OCT Segmentation</mark>
 - **任务**：提出一种基于Noisy Student框架的半监督学习方法，用于视网膜OCT图像中视神经盘和视神经杯的分割。
 - **数据集**：DRISHTI、REFUGE、RIGA（成人眼底图像）和AIROGS（未标记图像）。
 - **方法**：通过教师模型生成伪标签，训练学生模型，结合数据增强策略，提高模型在新领域的泛化能力。
@@ -509,7 +509,7 @@
 
 ---
 
-## 64. Unsupervised Domain Adaptation for MRI Skull Stripping
+## <mark>64. Unsupervised Domain Adaptation for MRI Skull Stripping</mark>
 - **任务**：开发一种无监督域适应方法，用于将成人脑部MRI的颅骨剥离模型迁移到新生儿数据上。
 - **数据集**：Calgary-Campinas（成人脑部MRI）、GMM合成数据集和新生儿MRI数据集。
 - **方法**：结合域对抗模型和GMM生成的合成数据，通过数据增强策略，训练模型以适应新生儿MRI数据。
@@ -549,7 +549,7 @@
 
 ---
 
-## 69. Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models
+## <mark>69. Exploring Transfer Learning in Medical Image Segmentation using Vision-Language Models</mark>
 - **任务**：探索视觉-语言模型（VLMs）在医学图像分割中的迁移学习能力。
 - **数据集**：11个2D医学图像数据集（包括内窥镜、皮肤、超声和X光图像）。
 - **方法**：通过微调CLIP和BiomedCLIP模型，结合自动化生成的语言提示，评估VLMs在医学图像分割中的性能和鲁棒性。
@@ -557,7 +557,7 @@
 
 ---
 
-## 70. NcIEMIL: Rethinking Decoupled Multiple Instance Learning Framework for Histopathological Slide Classification
+## <mark>70. NcIEMIL: Rethinking Decoupled Multiple Instance Learning Framework for Histopathological Slide Classification</mark>
 - **任务**：病理切片的多实例学习（MIL）分类，减少信息冗余，提高分类性能。
 - **数据集**：CAMELYON16乳腺癌数据集（270张训练用WSI，129张测试用WSI）和BgIM胃黏膜活检数据集（220个样本，4个等级的肠上皮化生）。
 - **方法**：提出NcIEMIL框架，通过弱监督训练的特征提取器、判别性实例选择和混合注意力聚合器，减少信息冗余并优化实例选择。
@@ -565,7 +565,7 @@
 
 ---
 
-## 71. Slide-SAM: Medical SAM Meets Sliding Window
+## <mark>71. Slide-SAM: Medical SAM Meets Sliding Window</mark>
 - **任务**：3D医学图像分割，解决Segment Anything Model（SAM）在处理3D图像时的上下文关系问题。
 - **数据集**：多个公共和私有的医学图像数据集，包括AbdomenCT-1K、TotalSegmentor、CTPelvic1K、WORD等。
 - **方法**：提出Slide-SAM模型，通过滑动窗口方法处理相邻切片，并结合混合损失函数，利用SAM的预训练权重进行3D分割。
@@ -581,7 +581,7 @@
 
 ---
 
-## 73. UnCLe SAM: Unleashing SAM’s Potential for Continual Prostate MRI Segmentation
+## <mark>73. UnCLe SAM: Unleashing SAM’s Potential for Continual Prostate MRI Segmentation</mark>
 - **任务**：连续学习（CL）在前列腺MRI分割中的应用，解决医学图像分割中的领域适应性问题。
 - **数据集**：四个前列腺MRI数据集（UCL、I2CVB、ISBI、DecathProst）。
 - **方法**：提出UnCLe SAM框架，通过持续更新提示（prompt）并利用SAM的预训练知识库，适应动态环境中的数据变化。
@@ -613,7 +613,7 @@
 
 ---
 
-## 77. Parameter-Efficient Generation of Natural Language Explanations for Chest X-ray Classification
+## <mark>77. Parameter-Efficient Generation of Natural Language Explanations for Chest X-ray Classification</mark>
 - **任务**：为胸部X光分类生成自然语言解释（NLE），减少训练参数数量。
 - **数据集**：MIMIC-NLE数据集（38003张图像和NLE对）。
 - **方法**：提出基于编码器-解码器架构的NLE生成方法，结合参数高效微调（PEFT）技术，减少训练参数，同时保持性能。
@@ -621,7 +621,7 @@
 
 ---
 
-## 78. Improving Identically Distributed and Out-of-Distribution Medical Image Classification with Segmentation-Guided Attention
+## <mark>78. Improving Identically Distributed and Out-of-Distribution Medical Image Classification with Segmentation-Guided Attention</mark>
 - **任务**：医学图像分类，特别是在小数据集场景下提高模型的泛化能力。
 - **数据集**：五个儿科医院的肾脏超声数据集（包括SickKids、Stanford、UIowa、CHOP）。
 - **方法**：提出分割掩码引导的注意力机制，通过注意力损失函数引导模型关注重要区域，提高模型在同分布和分布外数据上的性能。
@@ -653,7 +653,7 @@
 
 ---
 
-## 82. Imbalance-aware Loss Functions Improve Medical Image Classification
+## <mark>82. Imbalance-aware Loss Functions Improve Medical Image Classification</mark>
 - **任务**：解决医学图像分类中类别不平衡问题，提高少数类的分类性能。
 - **数据集**：Glioma数据集（3D MRI图像）和Glaucoma数据集（2D眼底照片）。
 - **方法**：提出基于MCC和F1分数的可微分损失函数，并将其与交叉熵损失结合，以提高模型对少数类的识别能力。
@@ -669,7 +669,7 @@
 
 ---
 
-## 84. Dense Self-Supervised Learning for Medical Image Segmentation
+## <mark>84. Dense Self-Supervised Learning for Medical Image Segmentation</mark>
 - **任务**：减少医学图像分割中手动标注的负担，通过自监督学习提高分割性能。
 - **数据集**：ACDC（心脏MRI分割）。
 - **方法**：提出Pix2Rep，一种像素级对比学习方法，通过自监督预训练生成强大的像素级表示，用于少样本和全监督分割任务。
@@ -677,7 +677,7 @@
 
 ---
 
-## 85. Zero-Shot Medical Image Segmentation Based on Sparse Prompt Using Finetuned SAM
+## <mark>85. Zero-Shot Medical Image Segmentation Based on Sparse Prompt Using Finetuned SAM</mark>
 - **任务**：在无需大量标注数据的情况下，实现医学图像的零样本分割。
 - **数据集**：AMOS22（腹部CT器官分割）、MoNuSeg（显微镜图像分割）和GlaS（腺体分割）。
 - **方法**：提出基于SAM模型的两阶段零样本分割方法，通过稀疏提示和测试时微调，实现对医学图像的快速分割。
@@ -693,7 +693,7 @@
 
 ---
 
-## 87. Med-Tuning: A New Parameter-Efficient Tuning Framework for Medical Volumetric Segmentation
+## <mark>87. Med-Tuning: A New Parameter-Efficient Tuning Framework for Medical Volumetric Segmentation</mark>
 - **任务**：开发一种参数高效的微调框架，用于医学体积分割任务。
 - **数据集**：KiTS 2019（肾脏肿瘤分割）、BraTS 2019和BraTS 2020（脑肿瘤分割）。
 - **方法**：提出Med-Tuning框架和Med-Adapter模块，通过多尺度特征提取和体积相关性建模，提高预训练模型在医学体积分割任务上的性能。
@@ -709,7 +709,7 @@
 
 ---
 
-## 89. Advancing Multiplex Immunofluorescence Imaging Cell Detection using Semi-Supervised Learning with Pseudo-Labeling
+## <mark>89. Advancing Multiplex Immunofluorescence Imaging Cell Detection using Semi-Supervised Learning with Pseudo-Labeling</mark>
 - **任务**：在多标记免疫荧光图像中检测细胞，解决标注数据有限的问题。
 - **数据集**：乳头状尿路上皮癌的mIF图像数据集，包含部分标注的单细胞数据。
 - **方法**：提出半监督学习方法，通过伪标签生成和迭代训练，提高细胞检测模型的性能和泛化能力。
@@ -749,7 +749,7 @@
 
 ---
 
-## 94. Weakly supervised deep learning model with size constraint for prostate cancer detection in multiparametric MRI and generalization to unseen domains
+## <mark>94. Weakly supervised deep learning model with size constraint for prostate cancer detection in multiparametric MRI and generalization to unseen domains</mark>
 - **任务**：多参数MRI中的前列腺癌检测。
 - **数据集**：PI-CAI、Prostate158和私有数据库（前列腺MRI图像）。
 - **方法**：提出弱监督学习方法，通过尺寸约束损失函数从弱标注（圆形涂鸦）中学习前列腺癌病变的分割，并通过集成多个训练模型的预测提高泛化性能。
@@ -757,7 +757,7 @@
 
 ---
 
-## 95. Disruptive Autoencoders: Leveraging Low-level features for 3D Medical Image Pre-training
+## <mark>95. Disruptive Autoencoders: Leveraging Low-level features for 3D Medical Image Pre-training</mark>
 - **任务**：3D医学图像预训练。
 - **数据集**：BraTS21、LUNA16、TCIA Covid19、HNSCC、TCIA Colon和LiDC（CT和MRI图像）。
 - **方法**：提出Disruptive Autoencoders（DAE），通过局部掩码、添加噪声和下采样等低级扰动训练自编码器，学习医学图像的局部特征表示。
@@ -789,7 +789,7 @@
 
 ---
 
-## 99. Target and Task specific Source-Free Domain Adaptive Image Segmentation
+## <mark>99. Target and Task specific Source-Free Domain Adaptive Image Segmentation</mark>
 - **任务**：医学图像分割中的源自由无监督领域适应。
 - **数据集**：CHASE、RITE、HRF（2D视网膜图像）和BraTS 2019（3D脑肿瘤MRI图像）。
 - **方法**：提出TT-SFUDA，通过两阶段适应（目标特定适应和任务特定适应）优化分割性能，结合伪标签生成、教师-学生自训练和增强一致性损失。
@@ -861,7 +861,7 @@
 
 ---
 
-## 108. Feasibility and benefits of joint learning from MRI databases with different brain diseases and modalities for segmentation
+## <mark>108. Feasibility and benefits of joint learning from MRI databases with different brain diseases and modalities for segmentation</mark>
 - **任务**：探索从不同脑部病理和模态的MRI数据库中联合学习的可行性和优势。
 - **数据集**：7个包含5种脑部病理和不同MRI模态集的数据库。
 - **方法**：开发并比较了Multi-Unet、LFUnet和MAFUnet三种方法，通过联合训练多个数据库，提高模型的泛化能力。
