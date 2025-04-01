@@ -5,7 +5,7 @@
 
 ---
 
-##<mark> 1. A Comprehensive Benchmark of Supervised and Self-supervised Pre-training on Multi-view Chest X-ray Classification</mark>
+##<mark>1. A Comprehensive Benchmark of Supervised and Self-supervised Pre-training on Multi-view Chest X-ray Classification</mark>
 - **任务**：研究多视图胸部X光图像分类任务中的预训练策略，特别是在低数据量场景下的性能表现。
 - **数据集**：PadChest 数据集，包含160,868张胸部X光图像，涵盖多种病理标签。
 - **方法**：通过对比自然图像和医学图像预训练的监督学习和自监督学习方法，评估其在多视图胸部X光分类任务中的效果。提出了一个四阶段的预训练策略，包括监督学习、自监督学习、医学图像监督学习和自监督学习，并在不同数据量（1%、10%、100%）下进行微调，验证其在低数据量场景中的优势。
